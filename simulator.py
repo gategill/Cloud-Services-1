@@ -30,7 +30,6 @@ class Simulator:
     argument = Argument()
     
     def __init__(self):
-        self.create_folder()
         self.run_simulation()
        
         
@@ -49,6 +48,7 @@ class Simulator:
         
         
     def run_simulation(self):
+        self.create_folder()
         file_path = os.path.join(self.get_path(), "times_{}.txt".format(self.argument.program))
         times = open(file_path, "a")
         
