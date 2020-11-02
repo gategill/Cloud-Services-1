@@ -1,3 +1,5 @@
+import time
+
 class Hello_World:
     def __init__(self):
         self.do_it()
@@ -5,6 +7,7 @@ class Hello_World:
         
     def do_it(self):
         print("hello world")
+        # time.sleep(1)
         
 def main():
     Hello_World()
