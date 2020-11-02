@@ -10,5 +10,6 @@ def integrate_boole(f,lr,N):
 
 
 if __name__ == "__main__":
-    sine_int= integrate_boole(lambda x: np.sin(x), lr = (0,np.pi), N = 8)
-    print(sine_int)
+    for n in [2,4,6,8,10,12,100]:
+        sine_int= integrate_boole(lambda x: np.sin(x), lr = (0,np.pi), N = 8)
+        print(sine_int)
