@@ -59,4 +59,23 @@ for program:
 
 
 
+Run Simulator on Docker:
 
+I have moved the dockerfiles and rquirments.txt into the simulator file and updated the CMD variable to run the
+simulator.
+
+To run a container on the docker files you must be in the simulator folder on your terminal
+
+ie. pythontest/simulator
+
+Then run the following to build and then run:
+
+		docker build -t NameOfImage .
+		(eg. docker build -t simtest/test1 .)
+
+		docker run NameOfImage
+		(eg. docker run simtest/test1)
+
+NOTE:
+NameOfImage is anything you want to call your image, it will only matter on your machine.
+Docker convention is to use name/version but doesnt matter here really
