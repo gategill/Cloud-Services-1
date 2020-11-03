@@ -1,13 +1,13 @@
 All the programs to be tested are stored in the "programs" folder
 Make sure the program has a main() function and a if __name__ == "__main__" condition
 Use the hello_world.py as a template 
-The simulation just runs the program as many times as required and records the time
+The simulatorjust runs the program as many times as required and records the time
 It doesn't specify the input for the program, the program should have a way to do it itself
 e.g., random.randint()
 
 The "generated times" folder holds the text files for the simulation
 Each time_text is saved with the name of the file and the number of iterations specified
-e.g., "hello_world__5_iterations"
+e.g., "hello_world.py__5_iterations"
 The first first row is the mean of the times
 The second row is the standard deviation of the times
 All the rest are individual runtimes for each iteration  
