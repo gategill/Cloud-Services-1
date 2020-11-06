@@ -36,7 +36,7 @@ class Simulator:
        
         
     def get_time_folder(self):
-        return os.path.join(os.getcwd(), "generated times")
+        return os.path.join(os.getcwd(), "generated_times")
     
     
     def get_time_file(self, program, num_iterations):
