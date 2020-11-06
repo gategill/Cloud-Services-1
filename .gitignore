@@ -1,3 +1,5 @@
 /venv
 Ronan/.vscode
 /.vscode
+simulator/generated_times
+simulator/DockerGeneratedTimes
