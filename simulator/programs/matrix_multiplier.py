@@ -1,4 +1,5 @@
 import numpy as np
+import time
 
 def gen_matrix(n):
     matrix_1 = np.random.rand(n,n)

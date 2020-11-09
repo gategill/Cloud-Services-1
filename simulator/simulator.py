@@ -89,6 +89,9 @@ class Simulator:
                     
                     for a_time in time_list:
                         time_txt.write(str(a_time) + "\n")
+                print(time_list)
+                print('Mean '+program_name+' '+ str (num_iterations) +':', mean)
+                print('Std '+program_name+' '+ str (num_iterations) +':', std)
                     
 
 def main():
@@ -96,4 +99,10 @@ def main():
             
                 
 if __name__ == "__main__":
+    T_start_time = time.time()
     main()
+    F_time = time.time()
+    print('-------------')
+    print("Total Simulation Time")
+    print('-------------')
+    print((F_time-T_start_time))

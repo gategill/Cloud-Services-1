@@ -1,4 +1,5 @@
 import numpy as np
+import time
 
 def integrate_boole(f,lr,N):
     (l,r) = lr 
@@ -11,5 +12,4 @@ def integrate_boole(f,lr,N):
 
 if __name__ == "__main__":
     for n in [1,2,5,10,50,100,500]:
-        sine_int= integrate_boole(lambda x: np.exp(x), lr = (0,n), N = 8)
-        print(sine_int)
+        integrate_boole(lambda x: np.exp(x), lr = (0,n), N = 8)
