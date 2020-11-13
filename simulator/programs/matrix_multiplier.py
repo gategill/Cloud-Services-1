@@ -7,5 +7,10 @@ def gen_matrix(n):
     return np.dot(matrix_1,matrix_2)
 
 if __name__ == '__main__':
+    print('matrix')
     for i in range(2,100):
+        tic = time.time()
         gen_matrix(i)
+        toc = time.time()
+        print(toc-tic)
+    print("####")
