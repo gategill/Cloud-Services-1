@@ -8,7 +8,7 @@ def gen_matrix(n):
 
 if __name__ == '__main__':
     print('matrix')
-    for i in range(2,100):
+    for i in range(1,500,2):
         tic = time.time()
         gen_matrix(i)
         toc = time.time()

@@ -79,3 +79,23 @@ Then run the following to build and then run:
 NOTE:
 NameOfImage is anything you want to call your image, it will only matter on your machine.
 Docker convention is to use name/version but doesnt matter here really
+
+
+Graph file
+
+I added a graphing program that takes a text file as input and outputs graphs as png
+for a single simulation (py simulator.py -ni 1).
+
+I changed the programs to print out time for each input between 1 and 499, so only run on 
+single iteration or else you will have a massive output.
+
+Input file format:
+
+you can copy and paste output from terminal to a txt file but will need to remove all text and move all the mean and sd
+and total amounts to the top and make sure you have 14 lines of input before the times start.
+I've added an example file to follow, you can just copy and paste the first two 'paragraphs' from the example
+file to your own files if needs be and just delete all mean, Sd and total values.
+
+Apologies for it being awkward and all the mesing with text files but it was a bit of a last minute job.
+
+

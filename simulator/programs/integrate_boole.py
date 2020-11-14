@@ -11,10 +11,10 @@ def integrate_boole(f,lr,N):
 
 
 if __name__ == "__main__":
-    print('Integrate')
-    for n in [1,2,5,10,50,100,500]:
+    print('integrate')
+    for n in range(1,500,2):
         tic = time.time()
-        integrate_boole(lambda x: np.exp(x), lr = (0,n), N = 8)
+        integrate_boole(lambda x: np.exp(x), lr = (0,n), N = 18)
         toc = time.time()
         print(toc-tic)
-    print('##')
+    print('###')

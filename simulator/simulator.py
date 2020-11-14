@@ -89,9 +89,9 @@ class Simulator:
                     
                     for a_time in time_list:
                         time_txt.write(str(a_time) + "\n")
-                #print(time_list)
-                #print('Mean '+program_name+' '+ str (num_iterations) +':', mean)
-                #print('Std '+program_name+' '+ str (num_iterations) +':', std)
+                print(time_list)
+                print('Mean '+program_name+' '+ str (num_iterations) +':', mean)
+                print('Std '+program_name+' '+ str (num_iterations) +':', std)
                     
 
 def main():
