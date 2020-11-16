@@ -12,7 +12,7 @@ def integrate_boole(f,lr,N):
 
 if __name__ == "__main__":
     print('integrate')
-    for n in range(1,500,2):
+    for n in range(1,5000,20): # changed from 1,500,2
         tic = time.time()
         integrate_boole(lambda x: np.exp(x), lr = (0,n), N = 18)
         toc = time.time()
